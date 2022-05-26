@@ -1,0 +1,119 @@
+body {
+  background-color: lightgray;
+  margin-top: -10px;
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 0%;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  height: 100%;
+}
+
+#navbar_logo {
+  width: 200px;
+  height: 60px;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.navbar_contents {
+  display: flex;
+  justify-content: right;
+  width: 100%;
+}
+
+#navbar_item {
+  width: max-content;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  justify-content: center;
+}
+
+#navbar_item:hover,
+#navbar_item_last:hover {
+  cursor: pointer;
+  background-color: darkgray;
+  background-clip: content-box;
+  background-clip: padding-box;
+  background-clip: border-box;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  /* background-image: url(https://th.bing.com/th/id/R.1b55bf7e83147b9a5fe624316d238beb?rik=qHP6gXcCAev7Tw&pid=ImgRaw&r=0); */
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#center_intro {
+  color: white;
+  font-size: 48px;
+  margin: 0px;
+}
+
+#center_name {
+  color: white;
+  font-size: 128px;
+  margin: 0px;
+}
+
+#center_title {
+  color: white;
+  margin: 0px;
+  font-size: 48px;
+}
+
+#center_line {
+  border: 1px solid white;
+  width: 45%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#center_container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+#center_container > p {
+  background-color: white;
+  margin: 0px;
+  font-size: 22px;
+  padding: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  background-clip: content-box;
+  background-clip: padding-box;
+  background-clip: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#center_container > p > img {
+  width: 20px;
+  height: 20px;
+  object-fit: scale-down;
+}
